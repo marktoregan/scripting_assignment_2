@@ -1,0 +1,21 @@
+Design Doc
+
+Overview
+    Read the config file, and process
+
+    catch all badly formed configuration file columns and exit.
+    invalid files should not crash the system but log and carry on.
+
+
+Justifications, and justify imports
+
+Assumptions
+
+    Deleteing Backup in destination folder not catered for.
+    Linux based tool and has not been test on windows, some modification would have to be made to cater for windows file systems.
+
+
+Failure Modes
+
+Run steps
+

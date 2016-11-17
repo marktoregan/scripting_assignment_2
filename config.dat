@@ -1,0 +1,10 @@
+backup_folder: "./destinationfiles"
+log_files: "./logs"
+watch:
+  - folder_path: ./sourcefiles
+    files:
+      - "one.txt"
+      - "two.txt"
+  - folder_path: ./sourcefiles
+    files:
+      - "three.txt"
